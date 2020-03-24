@@ -11,6 +11,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @PropertySource("classpath:app.properties")
 @EnableWebMvc
 @ComponentScan(basePackages = "com.app")
+//@ImportResource("classpath:app.properties")
 public class AppConfig implements WebMvcConfigurer {
 
     @Autowired
